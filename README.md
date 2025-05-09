@@ -11,7 +11,8 @@ This solution leverages two device posture checks
 Event Flow
 
 
-![ios-intune-compliance drawio](https://github.com/user-attachments/assets/8325e68d-66ae-4530-a50c-868edb242a1f)
+![image](https://github.com/user-attachments/assets/e6b9cc2c-055f-407c-92b6-d65b6423d942)
+
 
 More detail:
 
