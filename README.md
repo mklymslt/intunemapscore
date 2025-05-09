@@ -31,17 +31,17 @@ The Custom Service provider check will be applied to polices
 
 Pieces to make this work :
 
-create Unique client ID list
-create Unique client ID posture check for iOS
-create kv for cfdeviceid-ituuid
-create kv for cfdeviceid-itscore
-create logger worker to receive posture log events 
-create logpush job filtered to posture check created in step 2, destination is logger worker, included fields should be DeviceID, PostureReceivedJSON
-create custom s2 access app 
-create custom s2s_worker
-create custom s2s posture check , destination is custom s2s access app
-create custom s2s posture check scoring threshold
-apply custom s2s posture check to gateway policy
+1. create Unique client ID list
+2. create Unique client ID posture check for iOS
+3. create kv for cfdeviceid-ituuid
+4. create kv for cfdeviceid-itscore
+5. create logger worker to receive posture log events
+6. create logpush filtered to posture check created in step 2, destination is logger worker, included fields should be DeviceID, PostureReceivedJSON
+7. create custom s2 access app
+8. create custom s2s_worker
+9. create custom s2s posture check , destination is custom s2s access app
+10. create custom s2s posture check scoring threshold
+11. apply custom s2s posture check to gateway policy
 
 
 
