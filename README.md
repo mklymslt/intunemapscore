@@ -28,7 +28,7 @@ Worker :
 
 The Device UUID check does not have to pass or be applied to a traffic policy
 
-The Custom Service provider check will be applied to polices
+The Custom Service provider check consumes the s2s_score will be applied to polices and allows or blocks traffic based on the score threshold configured
 
 
 **Intune paraameter**
