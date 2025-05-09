@@ -16,9 +16,9 @@ Event Flow
 
 More detail:
 
-Logpush events for the Device UUID check are sent to a Worker.
+Logpush events for the Device UUID check are sent to a Worker. 
 
-Worker then :
+Worker : 
 
 1. creates/updates a map of Cloudflare [DeviceID : Intune deviceid] stored in KV
 2. requests compliance.State from Graph API for a device id
