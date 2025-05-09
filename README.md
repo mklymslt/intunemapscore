@@ -28,7 +28,6 @@ Worker :
 3. converts compliance.State to s2s_score
 4. creates/updates a map of Cloudflare [DeviceID : s2s_score] stored in KV
 
-The Device UUID check does not have to pass or be applied to a traffic policy
 
 The Custom Service provider check consumes the s2s_score is applied to polices and allows or blocks traffic based on the score threshold 
 
