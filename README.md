@@ -29,6 +29,19 @@ The Device UUID check does not have to pass or be applied to a traffic policy
 
 The Custom Service provider check will be applied to polices
 
+Pieces to make this work :
+
+create Unique client ID list
+create Unique client ID posture check for iOS
+create kv for cfdeviceid-ituuid
+create kv for cfdeviceid-itscore
+create logger worker to receive posture log events 
+create logpush job filtered to posture check created in step 2, destination is logger worker, included fields should be DeviceID, PostureReceivedJSON
+create custom s2 access app 
+create custom s2s_worker
+create custom s2s posture check , destination is custom s2s access app
+create custom s2s posture check scoring threshold
+apply custom s2s posture check to gateway policy
 
 
 
