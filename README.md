@@ -8,11 +8,12 @@ This solution leverages two device posture checks
 2. Custom Service Provider https://developers.cloudflare.com/cloudflare-one/identity/devices/service-providers/custom/
 
 
+Event Flow
+
 
 ![ios-intune-compliance drawio](https://github.com/user-attachments/assets/8325e68d-66ae-4530-a50c-868edb242a1f)
 
-
-How it works:
+More detail:
 
 Logpush events for the Device UUID check are sent to a Worker.
 
