@@ -31,6 +31,30 @@ The Device UUID check does not have to pass or be applied to a traffic policy
 The Custom Service provider check will be applied to polices
 
 
+Intune XML config example 
 
+<dict>
+    <key>organization</key>
+    <string>(name)</string>
+    <key>unique_client_id</key>
+    ** <string>{{deviceid}}</string> **
+   <key>onboarding</key>
+  <false/>
+</dict>
+
+
+
+Graph API devices response 
+
+{
+"id": "f65083ac-4cd3-4bab-a106-a1a5abc94e58",
+"userId": "101723da-96c4-4677-a76e-0fa2b0b04a2a",
+"deviceName": "Matt’s iPhone",
+"managedDeviceOwnerType": "personal",
+"enrolledDateTime": "2025-04-16T22:21:24Z",
+"lastSyncDateTime": "2025-04-16T22:34:23Z",
+"operatingSystem": "iOS",
+**"complianceState": "compliant",**
+**"jailBroken": "False",**
 
 
