@@ -6,6 +6,8 @@ This solution leverages two device posture checks
 
 1. Device UUID https://developers.cloudflare.com/cloudflare-one/identity/devices/warp-client-checks/device-uuid/
 2. Custom Service Provider https://developers.cloudflare.com/cloudflare-one/identity/devices/service-providers/custom/
+3. Cloudflare Workers: https://developers.cloudflare.com/workers/
+4. Cloudflare KV https://developers.cloudflare.com/kv/
 
 
 Event Flow
