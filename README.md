@@ -2,7 +2,7 @@
 
 Intune Device Compliance check for iOS devices with Cloudflare Access
 
-This solution leverages two device posture checks 
+This solution leverages two device posture checks and Cloudflare Workers
 
 1. Device UUID https://developers.cloudflare.com/cloudflare-one/identity/devices/warp-client-checks/device-uuid/
 2. Custom Service Provider https://developers.cloudflare.com/cloudflare-one/identity/devices/service-providers/custom/
