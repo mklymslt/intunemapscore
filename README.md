@@ -19,15 +19,6 @@ This solution leverages two device posture checks
 
 Intune MDM embeds a deviceid value into the Cloudflare One iOS app using the mdm parameter 
 
-<dict>
-    <key>organization</key>
-    <string>(teamname)</teamname></string>
-    <key>unique_client_id</key>
-    <string>{{deviceid}}</string>
-   <key>onboarding</key>
-  <false/>
-</dict>
-
 
 ![ios-intune-compliance drawio](https://github.com/user-attachments/assets/8325e68d-66ae-4530-a50c-868edb242a1f)
 
