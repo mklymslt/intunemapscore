@@ -23,10 +23,10 @@ Logpush events for the Device UUID check are sent to a Worker.
 
 Worker : 
 
-1. creates/updates a map of Cloudflare [DeviceID : Intune deviceid] stored in KV
+1. creates/updates a map of [ Cloudflare DeviceID : Intune deviceid] stored in KV
 2. requests compliance.State from Graph API for a deviceid
 3. converts compliance.State to s2s_score
-4. creates/updates a map of Cloudflare [DeviceID : s2s_score] stored in KV
+4. creates/updates a map of Cloudflare [Cloudflare DeviceID : s2s_score] stored in KV
 
 
 The Custom Service provider check consumes the s2s_score is applied to polices and allows or blocks traffic based on the score threshold 
