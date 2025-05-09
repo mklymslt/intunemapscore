@@ -10,8 +10,9 @@ This solution leverages two device posture checks
 
 Event Flow
 
+![intune-s2s](https://github.com/user-attachments/assets/cc35dbdb-6441-40ef-837d-236eee84069e)
 
-![image](https://github.com/user-attachments/assets/e6b9cc2c-055f-407c-92b6-d65b6423d942)
+
 
 
 More detail:
