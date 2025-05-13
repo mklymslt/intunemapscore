@@ -29,7 +29,7 @@ Worker :
 4. creates/updates a map of Cloudflare [Cloudflare DeviceID : s2s_score] stored in KV
 
 
-The Custom Service provider check consumes the s2s_score is applied to polices and allows or blocks traffic based on the score threshold 
+The Custom Service provider check consumes the s2s_score and is applied to Cloudflare polices. As an example can allow or block traffic to an App or URL based on the score threshold 
 
 
 **Intune paraameter**
